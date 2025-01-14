@@ -1,0 +1,40 @@
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Test Case Template for Project,,,,,,,,,,,,
+Project Name,,,,,,,,,,,,
+Module Name,Courses,,,,,,,,,,,
+Created By ,,,,,,,,,,,,
+Created Date,4-Jan-2025,,,,,,,,,,,
+Peer Review By,,,,,,,,,,,,
+Peer Reviewed Date,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Test Case ID,Scenario Name, Scenario Desciption,Pre Condition,Steps to Execute,Actual Result,Type of Scenario,Priority,Screenshots,Test Environment,Misc (Comments),Executed QA Name ,Last Modified Date
+TC-ACLAC0001,Login,Successful login,"Using credentials 
+username- admin@emeritus.org
+password- admin@123",Prefer  Login Test case.,Prefer  Login Test case.,Positive,P1,,Staging Environment,,,
+TC-ACLAC0002,Sidebar Course menue,Check if all courses visible or not,Courses shoud be created.,"1. After successful login.
+2. Click on the sidbar-Courses menu.","1. The course title should be visible.
+2. Only published courses should appear in the published section.
+3. Unpublished courses should be clearly visible in the unpublished section.
+4. Deleted courses should not appear anywhere in the course list.
+5. All Courses"" link should always be visible to the user.
+6. The instructional message should be clearly visible at the bottom of the course list.
+7. When clicking on a course, the sidebar list of course options should appear.
+8. The cursor pointer button should be visible.
+9. When clicking elsewhere, the sidebar should hide.",Positive,P1,,Staging Environment,,,
+TC-ACLAC0003,All course,Check if all courses visible or not,Courses shoud be created.,"1. After successful login.
+2. Click on the sidbar-Courses menu.
+3. Click on the All courses","1. The ""All Courses"" title should be visible.
+2. The ""Add Course"" icon should be visible.
+3. Display all currently enrolled courses first.
+4. Past enrollment courses should be visible in the ""Past Enrollments"" section.
+5. All courses should be displayed in the following format:
+Favorite | Course | Nickname | Term | Enrolled As | Published
+6. Courses should be filterable using the fields:
+Favorite | Course | Nickname | Term | Enrolled As | Published
+7. All courses in the list should be clickable",Positive,P1,,Staging Environment,,,
